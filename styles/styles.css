@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Protest+Riot&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Noto+Sans&family=Poppins&family=Protest+Riot&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Crimson+Pro:wght@200&family=Happy+Monkey&family=Noto+Sans&family=Poppins&family=Protest+Riot&family=Raleway:wght@200&display=swap');
+
+body{
+    h3{
+        font-family: 'Bubblegum Sans', sans-serif;
+    }
+    h4{
+        font-family: 'Happy Monkey', system-ui;
+        text-align: center;
+    }
+    h5{
+        font-family: 'Raleway', sans-serif;
+    }
+    font-family: 'Crimson Pro', serif;
+    line-height: 2.5em;
+    font-weight: 1500;
+    background-image: url("../images/14710.jpg");
+    background-size: 70%;
+}
+.content{
+    border: 5px solid salmon;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 10px;
+    font-weight: 1500;
+    margin: auto;
+    max-width: 700px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    .heading{
+        font-family: 'Protest Riot', sans-serif;
+        text-align: center;
+        
+    }
+}
+
+button:hover{
+    background-color: #B3E0E0;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #FA9FA4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #949493;
+    color: #333;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #B3E0E0;
+    color: #333;
+  }
